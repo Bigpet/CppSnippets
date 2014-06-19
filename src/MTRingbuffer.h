@@ -1,5 +1,6 @@
 #pragma once
 #include <array>
+#include <mutex>
 #include <thread>
 
 //Simple non-resizable FIFO Ringbuffer that can be simultaneously be read from and written to
